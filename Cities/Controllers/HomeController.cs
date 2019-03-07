@@ -17,6 +17,7 @@ namespace Cities.Controllers
         }
 
         public ViewResult Index() => View(repository.Cities);
+
         public ViewResult Create() => View();
 
         [HttpPost]
